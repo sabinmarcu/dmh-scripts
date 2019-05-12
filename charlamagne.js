@@ -1,6 +1,6 @@
 let data = [...document.querySelectorAll("table tr")]
   .map(it => [...it.children].slice(1, 100)   
-	  .filter(it => it.innerHTML.indexOf('blizzard'))
+    .filter(it => it.innerHTML.indexOf('blizzard'))
     .map(
       it => it.innerHTML
         .replace(/<(?:.|\n)*?>/gm, '')
