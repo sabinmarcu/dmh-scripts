@@ -10,7 +10,7 @@ const data = [
           .replace(/^\s*/, '')
           .replace(/\s*$/, ''),
       ].join(',')
-    )
+    ).sort()
 ].join('\n')
 
 const element = document.createElement('a');
